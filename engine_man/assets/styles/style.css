@@ -1,0 +1,336 @@
+body { line-height: 20px; font-family:Arial, Helvetica, sans-serif; font-size: 12px; color: #929292; background:#f4f4f4 url(../images/body-bg.png);}
+a{text-decoration:none;color:#003399;}
+p{margin:0;padding:0;}
+textarea,input{margin: 5px 0px 5px 0px;padding: 3px 8px 3px 8px;border: 1px solid #ddd;background-color: white;-moz-border-radius: 7px;border-radius: 7px;	color:#333;	height:29px;-webkit-border-radius: 7px;background:url(../images/bginput.jpg) repeat-x bottom #fff;position:relative;z-index:2;text-shadow:0 0 0 transparent,1px 1px 1px #FFF;}
+textarea{resize:none;font-family:arial;font-size:14px;}
+select {vertical-align:middle;margin: 5px 0px 5px 0px;padding: 7px 8px 7px 8px;border: 1px solid #ddd;background-color: white;-moz-border-radius: 7px;border-radius: 7px;	color:#333;	height:37px;-webkit-border-radius: 7px;background:url(../images/bginput.jpg) repeat-x bottom #fff;position:relative;z-index:2;}
+#content{-webkit-border-radius: 7px;-moz-border-radius: 7px;border-radius: 7px;position:absolute;width:500px;height:350px;top:50%;left:50%;margin-left:-250px;margin-top:-175px;text-align:left;background:#f3f3f3;border:10px solid #FFF;-moz-box-shadow: 0 0 2px #ccc;-webkit-box-shadow: 0 0 2px #ccc;box-shadow: 0 0 2px #ccc;color:#91394d;}
+	.head{font-size:36px;padding-left:96px;width:102px;line-height:1em;padding-top:34px;height:80px;vertical-align:middle;background:url(../images/logo.png) top left no-repeat;margin:0 auto;}
+	.head2{font-size:36px;padding-left:94px;width:500px;line-height:1em;padding-top:32px;height:75px;vertical-align:middle;background:url(../images/logo.png) top left no-repeat;}
+	.clear{clear:both;}
+	#message{display:none;margin-top:34px;}
+	#error{color:#FF0000;display:none;text-align:center;}
+	#main-content{overflow:auto;background:#FFFFFF;-webkit-border-radius: 7px;-moz-border-radius: 7px;border-radius: 7px;width:920px;margin:0px 20px 30px;min-height:360px;-moz-box-shadow: 0 0 2px #666;-webkit-box-shadow: 0 0 2px #666;box-shadow: 0 0 2px #666;}
+		.panel{width:270px;float:left;margin:10px;border:1px solid #ccc;-webkit-border-radius: 7px;-moz-border-radius: 7px;border-radius: 7px;}
+			.panel_title{background:url(../images/bgbtn.jpg) repeat-x;padding:5px;-moz-border-radius: 7px;border-radius: 7px;-webkit-border-radius: 7px;height:25px;line-height:19px;font-weight:bold;font-size:14px;text-shadow:0 0 0 transparent,1px 1px 1px #FFF;}
+			.panel_content{padding:5px;}
+
+.close{position:absolute;background:url(../images/close.png) no-repeat;top:-15px;right:-15px;width:30px;height:30px;cursor:pointer;}
+#footer{position:absolute;bottom:0px;right:0px;}
+.panel_big{margin:10px;border:1px solid #ccc;-webkit-border-radius: 7px;-moz-border-radius: 7px;border-radius: 7px;position:relative;min-height:240px;overflow:hidden;}
+.loader{display:none;}
+.panel_content{text-align:center;}
+.note{color:#ccc;}
+.act{float:right;font-size:14px;}
+.text{width:250px;}
+.select{width:268px;}
+.panel_small{overflow:hidden;float:left;margin:10px;border:1px solid #ccc;-webkit-border-radius: 7px;-moz-border-radius: 7px;border-radius: 7px;width:438px;min-height:220px;}
+.lef{text-align:left;}
+.min{min-height:170px;}
+.minw{width:422px;}
+.area{height:100px;vertical-align:top;}
+.area2{width:280px;height:150px;vertical-align:top;}
+.area3{height:120px;}
+.area4{height:86px;width:280px;vertical-align:top;}
+.button{height:35px;cursor:pointer;}
+.edit_kategori,.delete_kategori,.edit_subkategori,.delete_subkategori,.detail_produk,.edit_produk,.delete_produk{color:#03F;}
+.edit_kategori:hover,.delete_kategori:hover,.edit_subkategori:hover,.delete_subkategori:hover,.detail_produk:hover,.edit_produk:hover,.delete_produk:hover{text-decoration:underline;}
+.min2{min-height:300px;}
+#videocode_edit_container{display:none;}
+#vid-content{float:left;width:420px;text-align:center;height:315px;margin-bottom:10px;}
+#code-content{float:left;width:460px;height:315px;}
+#title_edit_container{display:none;}
+#keyword_edit_container{display:none;}#address_edit_container{display:none;}#yahoo1_edit_container{display:none;}#yahoo2_edit_container{display:none;}#facebook_edit_container{display:none;}#twitter_edit_container{display:none;}#blackberry_edit_container{display:none;}#gmail_edit_container{display:none;}#whatsapp_edit_container{display:none;}#handphone_edit_container{display:none;}#bulan_edit_container{display:none;}#jadwal_edit_container{display:none;}#destinasi_edit_container{display:none;}#transport_edit_container{display:none;}#store_edit_container{display:none;}#news_edit_container{display:none;}#promo_edit_container{display:none;}#gallery_edit_container{display:none;}#participant_edit_container{display:none;}#report_edit_container{display:none;}#publication_edit_container{display:none;}#proceeding_detail_edit_container{display:none;}#research_edit_container{display:none;}#berita_edit_container{display:none;}#pimpinan_edit_container{display:none;}#seminar_edit_container{display:none;}#seminar_edit_container{display:none;}#prestasi_edit_container{display:none;}#peralatan_edit_container{display:none;}#laboratorium_edit_container{display:none;}#sarana_prasarana_edit_container{display:none;}#dosen_edit_container{display:none;}#tata_usaha_item_edit_container{display:none;}#laboran_teknisi_item_edit_container{display:none;}#teks_edit_container{display:none;}
+#description_edit_container{display:none;}
+#lat_long_edit_container{display:none;}
+#kategori_edit_container{display:none;text-align:left;}
+	#kategori_form_container{text-align:center;}
+#subkategori_edit_container{display:none;text-align:left;}
+#delete_container, #delete_container2, #delete_container8{display:none;text-align:left;}
+	#delete_confirm{text-align:center;}
+#produk_item_detail_container,#proyek_item_detail_container,#slider_item_detail_container,#image_item_detail_container,#user_item_detail_container,#service_item_detail_container,#kategori_item_detail_container,#admin_item_detail_container,#place_item_detail_container,#registered_item_detail_container,#bulan_item_detail_container,#jadwal_item_detail_container,#destinasi_item_detail_container,#transport_item_detail_container,#store_item_detail_container,#news_item_detail_container,#promo_item_detail_container,#gallery_item_detail_container,#participant_item_detail_container,#report_item_detail_container,#publication_item_detail_container,#proceeding_detail_item_detail_container,#research_item_detail_container,#berita_item_detail_container,#pimpinan_item_detail_container,#seminar_item_detail_container,#prestasi_item_detail_container,#peralatan_item_detail_container,#laboratorium_item_detail_container,#sarana_prasarana_item_detail_container,#dosen_item_detail_container{display:none;overflow:auto;},#tata_usaha_item_detail_container{display:none !important;overflow:auto;},#laboran_teknisi_item_detail_container{display:none !important;overflow:auto;}
+	#produk_item_detail_container h1,#proyek_item_detail_container h1,#slider_item_detail_container{margin:0;padding:5px;}
+	#slider_item_detail_container a:hover{text-decoration:underline;}
+	#us_detail{float:left;padding:5px;width:110px;text-align:center;-webkit-border-radius: 7px;-moz-border-radius: 7px;border-radius: 7px;-moz-box-shadow: 0 0 2px #ccc;-webkit-box-shadow: 0 0 2px #ccc;box-shadow: 0 0 2px #ccc;}
+	#left_detail{padding:5px;width:250px;float:left;text-align:center;-webkit-border-radius: 7px;-moz-border-radius: 7px;border-radius: 7px;-moz-box-shadow: 0 0 2px #ccc;-webkit-box-shadow: 0 0 2px #ccc;box-shadow: 0 0 2px #ccc;margin:5px;}
+	#right_detail{width:460px;float:left;margin-bottom:10px;padding-top:5px;}
+	#bbutton_container{position:absolute;top:30px;right:5px;}
+		#bbutton:hover{text-decoration:underline;}
+	#big_detail{padding:5px;}
+#produk_item_edit_container,#proyek_item_edit_container,#slider_item_edit_container,#user_manual_edit_container,#image_item_edit_container,#user_item_edit_container,#admin_item_edit_container,#place_item_edit_container,#service_item_edit_container,#kategori_item_edit_container,#registered_item_edit_container,#bulan_item_edit_container,#jadwal_item_edit_container,#destinasi_item_edit_container,#transport_item_edit_container,#store_item_edit_container,#news_item_edit_container,#promo_item_edit_container,#gallery_item_edit_container,#participant_item_edit_container,#report_item_edit_container,#publication_item_edit_container,#proceeding_detail_item_edit_container,#research_item_edit_container,#berita_item_edit_container,#pimpinan_item_edit_container,#seminar_item_edit_container,#lowongan_kerja_item_edit_container,#prestasi_item_edit_container,#peralatan_item_edit_container,#laboratorium_item_edit_container,#sarana_prasarana_item_edit_container,#dosen_item_edit_container{display:none;},#tata_usaha_item_edit_container{display:none;},#laboran_teknisi_item_edit_container{display:none;}
+	#img_prev_container,	#img_prev_container1,	#img_prev_container2,	#img_prev_container3,	#img_prev_container4,	#img_prev_container5,	#img_prev_container6,	#img_prev_container7,	#img_prev_container8,	#img_prev_container_um2,	#img_prev_container_um3,	#img_prev_container_um4,	#img_prev_container_um5,	#img_prev_container_um6,	#img_prev_container_um7,	#img_prev_container_um8,	#img_prev_container_um9,	#img_prev_container_um10,	#img_prev_container_um11,	#img_prev_container_um12,	#img_prev_container_um13,	#img_prev_container_um14,	#img_prev_container_um15,	#img_prev_container_um16,	#img_prev_container_um17,	#img_prev_container_um18,	#img_prev_container_um19,	#img_prev_container_um20,	#img_prev_container_um21{		display:none;text-align:center;width:266px;	}
+		#img_prev_container a:hover,#img_prev_container2 a:hover{text-decoration:underline;display:inline;}
+	#img_prev,#img_prev1,#img_prev2,#img_prev3,#img_prev4,#img_prev5,#img_prev6,#img_prev7,#img_prev8,#img_prev_um2,#img_prev_um3,#img_prev_um4,#img_prev_um5,#img_prev_um6,#img_prev_um7,#img_prev_um8,#img_prev_um9,#img_prev_um10,#img_prev_um11,#img_prev_um12,#img_prev_um13,#img_prev_um14,#img_prev_um15,#img_prev_um16,#img_prev_um17,#img_prev_um18,#img_prev_um19,#img_prev_um20,#img_prev_um21{border:5px solid #fff;-moz-box-shadow: 0 0 2px #ccc;-webkit-box-shadow: 0 0 2px #ccc;box-shadow: 0 0 2px #ccc;-webkit-border-radius: 7px;-moz-border-radius: 7px;border-radius: 7px;text-align:center;vertical-align:middle;}
+#fl_container{display:none;height:31px;padding-top:14px;}
+	#upl_fl{display:inline;}
+	#del_fl:hover{text-decoration:underline;}
+#download_table a:hover,#download_item_detail a:hover{text-decoration:underline;}
+#download_item_detail{display:none;}
+#download_item_edit{display:none;}
+#inbox a:hover{text-decoration:underline;}
+.bold{font-weight:bolder;}
+.light{font-weight:lighter;}
+#inbox_container{min-height:420px;}
+#inbox_detail_container{display:none;min-height:420px;}
+	#b_container{text-align:center;}
+	#reply_container{display:none;text-align:center;}
+#message2{display:none;}
+	#message-loader2{background:url(../images/loader.gif) no-repeat;width:32px;height:32px;position:absolute;left:234px;top:38px;}
+	#message-text2{margin-top:30px;display:none;}
+#mc_edit_container{display:none;min-height:200px;}
+#gac_edit_container{display:none;min-height:200px;}
+#mc_container{min-height:200px;}
+#gac_container{min-height:200px;}
+#ket{display:none;text-shadow:0 0 0 transparent,1px 1px 1px #FFF;height:42px;}
+#container { text-align: center; margin: 0 auto; width: 980px; position: relative;}
+#content-big{-webkit-border-radius: 7px;-moz-border-radius: 7px;border-radius: 7px;text-align:left;background:#f3f3f3;border:10px solid #FFF;-moz-box-shadow: 0 0 2px #ccc;-webkit-box-shadow: 0 0 2px#ccc;box-shadow: 0 0 2px #ccc;color:#91394d;}
+.img img{border:5px solid #fff;-moz-box-shadow: 0 0 2px #ccc;-webkit-box-shadow: 0 0 2px #ccc;box-shadow: 0 0 2px #ccc;-webkit-border-radius: 7px;-moz-border-radius: 7px;border-radius: 7px;}
+.geoRow{height:16px;}
+.flag{float:left;padding-top:5px;}
+.country, .people{float:left;margin-left:3px;}
+
+/*-----SUPERFISH-------*/
+
+/*** ESSENTIAL STYLES ***/
+.sf-menu, .sf-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+.sf-menu {
+	line-height:	1.0;
+	width:100%;
+	background:#91394d;
+}
+.sf-menu ul {
+	position:		absolute;
+	top:			-999em;
+	width:			13em; /* left offset of submenus need to match (see below) */
+}
+.sf-menu ul li {
+	width:			100%;
+}
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	float:			left;
+	position:		relative;
+}
+.sf-menu a {
+	display:		block;
+	position:		relative;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0;
+	top:			2.5em; /* match top ul list item height */
+	z-index:		99;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			13em; /* match ul width */
+	top:			0;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+
+/*** DEMO SKIN ***/
+.sf-menu {
+	float:			left;
+	margin-bottom:	1em;
+}
+.sf-menu a {
+	border-right:	1px solid #fff;
+	padding: 		.75em 1em;
+	text-decoration:none;
+}
+.sf-menu a, .sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+	color:			#fff;
+}
+.sf-menu li {
+	background:		#91394d;
+}
+.sf-menu li li {
+	background:		#823345;
+}
+.sf-menu li li li {
+	background:		#823345;
+}
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	background:		#bd494c;
+	outline:		0;
+}
+/*** arrows **/
+.sf-menu a.sf-with-ul {
+	padding-right: 	2.25em;
+	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
+}.sf-menu li ul li{width:165px;}.sf-menu li li li ul{margin-left:36px;}
+.sf-sub-indicator {
+	position:		absolute;
+	display:		block;
+	right:			.75em;
+	top:			1.05em; /* IE6 only */
+	width:			10px;
+	height:			10px;
+	text-indent: 	-999em;
+	overflow:		hidden;
+	background:		url('../images/arrows-ffffff.png') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+}
+a > .sf-sub-indicator {  /* give all except IE6 the correct values */
+	top:			.8em;
+	background-position: 0 -100px; /* use translucent arrow for modern browsers*/
+}
+/* apply hovers to modern browsers */
+a:focus > .sf-sub-indicator,
+a:hover > .sf-sub-indicator,
+a:active > .sf-sub-indicator,
+li:hover > a > .sf-sub-indicator,
+li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px -100px; /* arrow hovers for modern browsers*/
+}
+
+/* point right for anchors in subs */
+.sf-menu ul .sf-sub-indicator { background-position:  -10px 0; }
+.sf-menu ul a > .sf-sub-indicator { background-position:  0 0; }
+/* apply hovers to modern browsers */
+.sf-menu ul a:focus > .sf-sub-indicator,
+.sf-menu ul a:hover > .sf-sub-indicator,
+.sf-menu ul a:active > .sf-sub-indicator,
+.sf-menu ul li:hover > a > .sf-sub-indicator,
+.sf-menu ul li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px 0; /* arrow hovers for modern browsers*/
+}
+
+/*** shadows for all but IE6 ***/
+.sf-shadow ul {
+	background:	url('../images/shadow.png') no-repeat bottom right;
+	padding: 0 8px 9px 0;
+	-moz-border-radius-bottomleft: 17px;
+	-moz-border-radius-topright: 17px;
+	-webkit-border-top-right-radius: 17px;
+	-webkit-border-bottom-left-radius: 17px;
+}
+.sf-shadow ul.sf-shadow-off {
+	background: transparent;
+}
+
+
+/*-------UPLOADER---------*/
+#container_up,#container_up1,#container_up2,#container_up3,#container_up4,#container_up5,#container_up8 {
+	background-color:#07BCF8;-webkit-border-radius: 7px;-moz-border-radius: 7px;border-radius: 7px;
+}
+
+#content_up ,#content_up1,#content_up2,#content_up3,#content_up4,#content_up5,#content_up8{
+	padding: 5px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+	min-height:100px;
+}
+
+.sbtn,.sbtn1,.sbtn2,.sbtn3,.sbtn4,.sbtn5{
+	height: 22px;
+	width: 82px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+	background-position: center;
+	padding: 0px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	cursor:pointer;
+}
+
+#header_up,#header_up1,#header_up2,#header_up3,#header_up4,#header_up5,#header_up8 {
+  padding:5px;
+}
+
+.msg,.msg1,.msg2,.msg3,.msg4,.msg5 {
+ 	color:#FFF;
+	padding:5px;
+}
+#ket_up,#ket_up1,#ket_up2,#ket_up3,#ket_up4,#ket_up5,#ket_up8{
+	margin:auto;
+	display:none;
+	}
+
+.emsg,.emsg1,.emsg2,.emsg3,.emsg4,.emsg5 {
+	text-align:center;
+	width:100%;
+	color:#666;
+	padding:5px;
+}
+
+#loader_up,#loader_up1,#loader_up2,#loader_up3,#loader_up4,#loader_up5,#loader_up8{
+    visibility:hidden;
+}
+
+#f1_upload_form,#f1_upload_form1,#f1_upload_form2,#f1_upload_form3,#f1_upload_form4,#f1_upload_form5,#f1_upload_form8 {
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+}
+
+#f1_upload_process,#f1_upload_process1,#f1_upload_process2,#f1_upload_process3,#f1_upload_process4,#f1_upload_process5,#f1_upload_process8{
+   z-index:100;
+   display:none;
+   position:absolute;
+   text-align:center;
+   width:100%;
+}
+.err{
+	color:#FF0000;
+	font-size:10px;
+	display:inline-block;
+	margin-left:5px;
+}
+#upload_bi label{
+	display:inline-block;
+	width:50px;
+	vertical-align:top;
+	margin-top:10px;
+}
+.box_prev{
+	border: 1px solid #DDDDDD;
+	-webkit-border-radius: 7px;-moz-border-radius: 7px;border-radius: 7px;
+	float:left;
+	margin:0 10px 10px 0;
+	width:160px;
+	height:182px;
+}
+.box_img{
+	width:160px;
+	height:160px;
+}
+.box_act{
+	height:20px;
+}
+.box_prev2{
+	border: 1px solid #DDDDDD;
+	-webkit-border-radius: 7px;-moz-border-radius: 7px;border-radius: 7px;
+	float:left;
+	margin-right:10px;
+	width:280px;
+	height:142px;
+}
+.box_img2{
+	width:280px;
+	height:140px;
+}/* .icon_search{background:url('../images/search_icon.png') no-repeat 168px center} */.icon_search{background:url('../images/search_icon.png') no-repeat 168px center; cursor:pointer;}.a_icon_search{width:180px; position:relative; z-index:1;}.btn_search{position:absolute; margin-top:9px; margin-left:-34px; z-index:2; cursor:pointer; background:url('../images/search_icon.png') 5px no-repeat; width:32px; border:none;}
